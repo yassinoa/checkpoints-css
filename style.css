@@ -1,0 +1,46 @@
+body{
+  background: rgb(255,255,255);
+  background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(225,255,225,1) 68%, rgba(154,250,202,1) 100%);
+}
+#home{
+  text-align: center;
+}
+#home p{
+  font-weight: 800;
+}
+#About{
+  display: flex;
+}
+
+.img>img{
+  border-radius: 10px;
+}
+.img , .about{
+  margin: 20px 20px;
+}
+.cont{
+  display: flex;
+}
+.l{
+  
+  margin-right: 30px;
+  margin-left: 20px;
+  
+}
+.ll{
+  border-right: 4px solid green;
+  width: 30%;
+}
+.r{
+  width: 60%;
+  margin-left: 20px;
+}
+.cord{
+  display: flex;
+}
+.cord h4{
+  margin-left: 20px;
+}
+#contact{
+  margin: 20px
+}
